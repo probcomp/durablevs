@@ -1,0 +1,8 @@
+pybullet
+numpy
+torch
+torchvision
+opencv-contrib-python==4.5.3.56
+jupyter==1.0.0
+matplotlib
+plotly
