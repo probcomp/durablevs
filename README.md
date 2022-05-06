@@ -2,6 +2,8 @@
 
 Nishad Gothoskar, Miguel Lázaro-Gredilla, Yasemin Bekiroglu, Abhishek Agarwal, Joshua B. Tenenbaum, Vikash K. Mansinghka, Dileep George
 
+<img width="1625" alt="image" src="https://user-images.githubusercontent.com/66085644/167056038-1487a9ca-346a-41be-a8ab-260f86187b1f.png">
+
 This is the official implementation of our ICRA 2022 paper "DURableVS: Data-efficient Unsupervised Recalibrating Visual Servoing via online learning in a structured generative model".
 
 DurableVS is our a method for unsupervised learning of visual servoing which does not require any prior calibration and is extremely data-efficient. Our key insight is that visual servoing does not depend on identifying the veridical kinematic and camera parameters, but instead only on an accurate generative model of image feature observations from the joint positions of the robot. With our model architecture and learning algorithm, we can consistently learn accurate models from less than 50 training samples (which amounts to less than 1 min of unsupervised data collection) and then use these to enable accurate visual servoing. We can also continue learning online, which enables the robotic system to recover from calibration errors and to detect and quickly adapt to possibly unexpected changes in the robot-camera system (e.g. bumped camera, new objects).
